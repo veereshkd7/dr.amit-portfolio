@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+-import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 // Your GitHub Pages project site is served from:
@@ -9,7 +9,7 @@ import react from "@vitejs/plugin-react";
 // If you later attach a real custom domain (Settings > Pages >
 // Custom domain) and add a CNAME file, change base back to "/".
 export default defineConfig({
-  base: "/dr.amittammanagoudar.com/",
+  base: "/dr.amit-portfolio/",
   plugins: [react()],
   server: {
     host: "0.0.0.0",
